@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribute", "Attribute\Attribute.csproj", "{227A3C7C-7136-4D5B-AF80-B87E0201F661}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Aggregate\Aggregate.csproj", "{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{227A3C7C-7136-4D5B-AF80-B87E0201F661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{227A3C7C-7136-4D5B-AF80-B87E0201F661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{227A3C7C-7136-4D5B-AF80-B87E0201F661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
