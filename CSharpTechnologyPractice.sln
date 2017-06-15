@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribute", "Attribute\Attr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregate", "Aggregate\Aggregate.csproj", "{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{B21B4789-0B7A-4EA3-82B3-ADB6E1811F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlConvert", "HtmlConvert\HtmlConvert.csproj", "{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C954B1-0102-4DD1-84FC-1CB19ECF2957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21B4789-0B7A-4EA3-82B3-ADB6E1811F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21B4789-0B7A-4EA3-82B3-ADB6E1811F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21B4789-0B7A-4EA3-82B3-ADB6E1811F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21B4789-0B7A-4EA3-82B3-ADB6E1811F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
