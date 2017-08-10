@@ -3,3 +3,4 @@ E:\MyProject\CSharpBasisPractice\HtmlConvert\bin\Debug\HtmlConvert.exe
 E:\MyProject\CSharpBasisPractice\HtmlConvert\bin\Debug\HtmlConvert.pdb
 E:\MyProject\CSharpBasisPractice\HtmlConvert\obj\Debug\HtmlConvert.exe
 E:\MyProject\CSharpBasisPractice\HtmlConvert\obj\Debug\HtmlConvert.pdb
+E:\MyProject\CSharpBasisPractice\HtmlConvert\obj\Debug\HtmlConvert.csprojResolveAssemblyReference.cache

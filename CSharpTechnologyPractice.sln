@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlConvert", "HtmlConvert\HtmlConvert.csproj", "{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{49CD19F0-B642-404C-BC1F-08084552C593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inherit", "Inherit\Inherit.csproj", "{18F88A60-4F37-4A53-A998-2942CA5318FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B820AF3-ED1C-40D1-9AE6-0B1898F4301C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CD19F0-B642-404C-BC1F-08084552C593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CD19F0-B642-404C-BC1F-08084552C593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CD19F0-B642-404C-BC1F-08084552C593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CD19F0-B642-404C-BC1F-08084552C593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F88A60-4F37-4A53-A998-2942CA5318FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F88A60-4F37-4A53-A998-2942CA5318FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F88A60-4F37-4A53-A998-2942CA5318FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F88A60-4F37-4A53-A998-2942CA5318FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

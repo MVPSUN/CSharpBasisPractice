@@ -13,9 +13,9 @@ namespace Delegate
             Action<int> action1 = new Action<int>(MyMethodC);
             action1(1);
             Func<int> func1 = MyMethodA;
-            var tttt = func1();
+            var resultFunc1 = func1();
             Func<int> func2 = MyMethodB;
-            var tt11tt = func2();
+            var resultFunc2 = func2();
             FunList(func1, func2);
             FunList(func2);
 
@@ -45,6 +45,10 @@ namespace Delegate
         public void FunList(params Func<int>[] func)
         {
             var tt = func.Select(s => s());
+        }
+        public void FunListParam(params List<string>[] func)
+        {
+
         }
     }
 

@@ -13,6 +13,7 @@ namespace HtmlConvert
         static void Main(string[] args)
         {
             var str = @"&lt;p&gt;替换前，，&lt;/p&gt;&lt;p&gt;hello，，，&lt;/p&gt;&lt;p&gt;替换前，，，，&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;";
+            var str1 = @"&lt;p&gt;&lt;em style=&quot;font-size: 1pc;&quot;&gt;&amp;lt;html&amp;gt;&amp;lt;div&amp;gt;&lt;/em&gt;&lt;br/&gt;&lt;/p&gt;";
             #region 方案一
             var convertHtmlOne = NoHTML(str);
             var convertValueOne = ReplaceHtmlTag(convertHtmlOne);
@@ -20,6 +21,11 @@ namespace HtmlConvert
             #region 方案二
             var convertHtmlTwo = System.Web.HttpUtility.HtmlDecode(str);
             var convertValueTwo = ReplaceHtmlTag(convertHtmlTwo);
+            #endregion
+            #region 方案三
+            var convertHtmlThree = System.Web.HttpUtility.HtmlDecode(str1);
+            var convertValueThree = ReplaceHtmlTag(convertHtmlThree);
+            var sss = System.Web.HttpUtility.HtmlEncode(convertValueThree);
             #endregion
         }
         public static string ReplaceHtmlTag(string html, int length = 0)
