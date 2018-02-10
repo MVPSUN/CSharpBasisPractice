@@ -12,6 +12,7 @@ namespace AttributePractice
         static void Main(string[] args)
         {
             Hoopster dd = new Hoopster();
+            var type = dd.GetType();
             dd.Play();
         }
     }

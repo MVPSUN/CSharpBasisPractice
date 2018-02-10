@@ -1,0 +1,8 @@
+E:\MyProject\CSharpBasisPractice\Jsons\bin\Debug\Jsons.exe.config
+E:\MyProject\CSharpBasisPractice\Jsons\bin\Debug\Jsons.exe
+E:\MyProject\CSharpBasisPractice\Jsons\bin\Debug\Jsons.pdb
+E:\MyProject\CSharpBasisPractice\Jsons\bin\Debug\Newtonsoft.Json.dll
+E:\MyProject\CSharpBasisPractice\Jsons\bin\Debug\Newtonsoft.Json.xml
+E:\MyProject\CSharpBasisPractice\Jsons\obj\Debug\Jsons.csprojResolveAssemblyReference.cache
+E:\MyProject\CSharpBasisPractice\Jsons\obj\Debug\Jsons.exe
+E:\MyProject\CSharpBasisPractice\Jsons\obj\Debug\Jsons.pdb

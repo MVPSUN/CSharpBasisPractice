@@ -1,0 +1,6 @@
+E:\MyProject\CSharpBasisPractice\BasicKnowLedge\bin\Debug\BasicKnowLedge.exe.config
+E:\MyProject\CSharpBasisPractice\BasicKnowLedge\bin\Debug\BasicKnowLedge.exe
+E:\MyProject\CSharpBasisPractice\BasicKnowLedge\bin\Debug\BasicKnowLedge.pdb
+E:\MyProject\CSharpBasisPractice\BasicKnowLedge\obj\Debug\BasicKnowLedge.exe
+E:\MyProject\CSharpBasisPractice\BasicKnowLedge\obj\Debug\BasicKnowLedge.pdb
+E:\MyProject\CSharpBasisPractice\BasicKnowLedge\obj\Debug\BasicKnowLedge.csprojResolveAssemblyReference.cache

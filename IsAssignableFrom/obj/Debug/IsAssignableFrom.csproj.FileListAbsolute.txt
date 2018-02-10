@@ -1,0 +1,6 @@
+E:\MyProject\CSharpBasisPractice\IsAssignableFrom\bin\Debug\IsAssignableFrom.exe.config
+E:\MyProject\CSharpBasisPractice\IsAssignableFrom\bin\Debug\IsAssignableFrom.exe
+E:\MyProject\CSharpBasisPractice\IsAssignableFrom\bin\Debug\IsAssignableFrom.pdb
+E:\MyProject\CSharpBasisPractice\IsAssignableFrom\obj\Debug\IsAssignableFrom.csprojResolveAssemblyReference.cache
+E:\MyProject\CSharpBasisPractice\IsAssignableFrom\obj\Debug\IsAssignableFrom.exe
+E:\MyProject\CSharpBasisPractice\IsAssignableFrom\obj\Debug\IsAssignableFrom.pdb
