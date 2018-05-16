@@ -15,12 +15,19 @@ namespace IEnumerableOrIEnumerator
         }
         public void Consumer()
         {
+            //没有使用迭代块，把全部数据加载到内存当中
+            var data = GetData();
+            foreach (int i in data)
+            {
+                Console.WriteLine(i.ToString());
+            }
+            //使用迭代块
             var content = Integers();
-            var cont1 = content.GetEnumerator();
             foreach (int i in content)
             {
                 Console.WriteLine(i.ToString());
             }
+
         }
         /// <summary>
         /// 迭代块
@@ -35,6 +42,15 @@ namespace IEnumerableOrIEnumerator
             yield return 8;
             yield return 16;
             yield return 16777216;
+        }
+
+        /// <summary>
+        /// 获取数据
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerable<int> GetData()
+        {
+            return new List<int>() { 1, 2, 3, 4 };
         }
     }
 }

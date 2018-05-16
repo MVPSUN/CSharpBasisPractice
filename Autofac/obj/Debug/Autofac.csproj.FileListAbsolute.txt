@@ -1,0 +1,8 @@
+E:\MyProject\CSharpBasisPractice\Autofac\bin\Debug\Autofac.exe.config
+E:\MyProject\CSharpBasisPractice\Autofac\bin\Debug\Autofac.exe
+E:\MyProject\CSharpBasisPractice\Autofac\bin\Debug\Autofac.pdb
+E:\MyProject\CSharpBasisPractice\Autofac\bin\Debug\Autofac.dll
+E:\MyProject\CSharpBasisPractice\Autofac\bin\Debug\Autofac.xml
+E:\MyProject\CSharpBasisPractice\Autofac\obj\Debug\Autofac.csprojResolveAssemblyReference.cache
+E:\MyProject\CSharpBasisPractice\Autofac\obj\Debug\Autofac.exe
+E:\MyProject\CSharpBasisPractice\Autofac\obj\Debug\Autofac.pdb
