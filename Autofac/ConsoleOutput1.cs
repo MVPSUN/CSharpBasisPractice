@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Autofac
 {
-    public class ConsoleOutput1 : IOutput
+    public class ConsoleOutput_First : IOutput
     {
         public void Write(string content)
         {
