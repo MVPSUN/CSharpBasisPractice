@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Autofac
 {
-    public class ConsoleOutput_First : IOutput
+    public class ConsoleOutput_First : IOutput, IDateWriter
     {
         public void Write(string content)
         {
             Console.WriteLine("1111");
+        }
+
+        public void WriteDate()
+        {
+            // throw new NotImplementedException();
         }
     }
 }

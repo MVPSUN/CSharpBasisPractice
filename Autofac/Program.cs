@@ -13,7 +13,9 @@ namespace Autofac
         {
             var builder = new ContainerBuilder();
             builder.RegisterType<ConsoleOutput>().As<IOutput>().PreserveExistingDefaults();
-            builder.RegisterType<ConsoleOutput_First>().AsSelf().As<IOutput>();//以IOutput形式来调用和以ConsoleOutput_First自身形式来调用
+            //   builder.RegisterType<ConsoleOutput_First>().As<IOutput>();//以IOutput形式来调用和以ConsoleOutput_First自身形式来调用
+            builder.RegisterType<ConsoleOutput_First>().AsSelf();//以ConsoleOutput_First自身形式来调用
+            builder.RegisterType<ConsoleOutput_First>().AsImplementedInterfaces();//以类ConsoleOutput_First实现的接口IOutput和IDateWriter进行注册
             builder.RegisterType<TodayWriter>().As<IDateWriter>();
             Container = builder.Build();
             WriteDate();
@@ -26,6 +28,7 @@ namespace Autofac
             {
                 var consoleOutput_First = scope.Resolve<ConsoleOutput_First>();
                 var consoleOutput_Inter = scope.Resolve<IOutput>();
+                var consoleOutput_Inter1 = scope.Resolve<IDateWriter>();
                 consoleOutput_First.Write("test1");
                 consoleOutput_Inter.Write("test2");
                 //var output = scope.Resolve<IOutput>();

@@ -10,6 +10,30 @@ namespace IEnumerableOrIEnumerator
     {
         static void Main(string[] args)
         {
+            #region SelectMany
+            //初始化数据  
+            School s = new School();
+            for (int i = 0; i < 5; i++)
+            {
+                s.Classes.Add(new Class());
+            }
+            s.Classes[0].Students.Add(new Student(1, "a0"));
+            s.Classes[1].Students.Add(new Student(1, "b0"));
+            s.Classes[2].Students.Add(new Student(0, "c0"));
+            s.Classes[3].Students.Add(new Student(0, "d0"));
+            s.Classes[4].Students.Add(new Student(0, "e0"));
+            s.Classes[0].Students.Add(new Student(0, "a1"));
+            s.Classes[0].Students.Add(new Student(1, "a1"));
+            s.Classes[0].Students.Add(new Student(1, "a2"));
+            s.Classes[0].Students.Add(new Student(1, "a3"));
+            s.Classes[1].Students.Add(new Student(0, "b1"));
+            s.Classes[2].Students.Add(new Student(0, "c1"));
+            s.Classes[3].Students.Add(new Student(0, "d1"));
+            //取出school下的所有性别是0的student  
+            var x1 = s.Classes.SelectMany(b => b.Students);//把结果合并成一个序列
+            var x3 = s.Classes.Select(b => b.Students);//返回一个新表各自存储
+            #endregion
+
             Program d = new Program();
             d.Consumer();
         }
