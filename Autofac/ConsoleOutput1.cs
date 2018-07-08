@@ -10,12 +10,12 @@ namespace Autofac
     {
         public void Write(string content)
         {
-            Console.WriteLine("1111");
+            Console.WriteLine("ConsoleOutput_First");
         }
 
         public void WriteDate()
         {
-            // throw new NotImplementedException();
+            Console.WriteLine("ConsoleOutput_First");
         }
     }
 }
