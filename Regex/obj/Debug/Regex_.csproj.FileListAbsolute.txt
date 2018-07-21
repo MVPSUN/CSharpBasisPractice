@@ -1,6 +1,5 @@
 E:\MyProject\CSharpBasisPractice\Regex\bin\Debug\Regex.exe.config
 E:\MyProject\CSharpBasisPractice\Regex\bin\Debug\Regex.exe
 E:\MyProject\CSharpBasisPractice\Regex\bin\Debug\Regex.pdb
-E:\MyProject\CSharpBasisPractice\Regex\obj\Debug\Regex_.csprojResolveAssemblyReference.cache
 E:\MyProject\CSharpBasisPractice\Regex\obj\Debug\Regex.exe
 E:\MyProject\CSharpBasisPractice\Regex\obj\Debug\Regex.pdb

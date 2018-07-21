@@ -3,4 +3,3 @@ E:\MyProject\CSharpBasisPractice\IEnumerableOrIEnumerator\bin\Debug\IEnumerableO
 E:\MyProject\CSharpBasisPractice\IEnumerableOrIEnumerator\bin\Debug\IEnumerableOrIEnumerator.pdb
 E:\MyProject\CSharpBasisPractice\IEnumerableOrIEnumerator\obj\Debug\IEnumerableOrIEnumerator.exe
 E:\MyProject\CSharpBasisPractice\IEnumerableOrIEnumerator\obj\Debug\IEnumerableOrIEnumerator.pdb
-E:\MyProject\CSharpBasisPractice\IEnumerableOrIEnumerator\obj\Debug\IEnumerableOrIEnumerator.csprojResolveAssemblyReference.cache

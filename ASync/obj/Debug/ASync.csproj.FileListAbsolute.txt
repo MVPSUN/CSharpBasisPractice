@@ -1,0 +1,6 @@
+E:\MyProject\CSharpBasisPractice\ASync\bin\Debug\ASync.exe.config
+E:\MyProject\CSharpBasisPractice\ASync\bin\Debug\ASync.exe
+E:\MyProject\CSharpBasisPractice\ASync\bin\Debug\ASync.pdb
+E:\MyProject\CSharpBasisPractice\ASync\obj\Debug\ASync.exe
+E:\MyProject\CSharpBasisPractice\ASync\obj\Debug\ASync.pdb
+E:\MyProject\CSharpBasisPractice\ASync\obj\Debug\ASync.csprojResolveAssemblyReference.cache

@@ -1,6 +1,5 @@
 E:\MyProject\CSharpBasisPractice\Reflect\bin\Debug\Reflect.exe.config
 E:\MyProject\CSharpBasisPractice\Reflect\bin\Debug\Reflect.exe
 E:\MyProject\CSharpBasisPractice\Reflect\bin\Debug\Reflect.pdb
-E:\MyProject\CSharpBasisPractice\Reflect\obj\Debug\Reflect.csprojResolveAssemblyReference.cache
 E:\MyProject\CSharpBasisPractice\Reflect\obj\Debug\Reflect.exe
 E:\MyProject\CSharpBasisPractice\Reflect\obj\Debug\Reflect.pdb
