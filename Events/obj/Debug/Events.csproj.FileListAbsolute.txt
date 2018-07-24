@@ -3,3 +3,4 @@ E:\MyProject\CSharpBasisPractice\Events\bin\Debug\Events.exe
 E:\MyProject\CSharpBasisPractice\Events\bin\Debug\Events.pdb
 E:\MyProject\CSharpBasisPractice\Events\obj\Debug\Events.exe
 E:\MyProject\CSharpBasisPractice\Events\obj\Debug\Events.pdb
+E:\MyProject\CSharpBasisPractice\Events\obj\Debug\Events.csprojResolveAssemblyReference.cache

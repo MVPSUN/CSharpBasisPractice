@@ -1,6 +1,5 @@
 E:\MyProject\CSharpBasisPractice\Aggregate\bin\Debug\Aggregate.exe.config
 E:\MyProject\CSharpBasisPractice\Aggregate\bin\Debug\Aggregate.exe
 E:\MyProject\CSharpBasisPractice\Aggregate\bin\Debug\Aggregate.pdb
-E:\MyProject\CSharpBasisPractice\Aggregate\obj\Debug\Aggregate.csprojResolveAssemblyReference.cache
 E:\MyProject\CSharpBasisPractice\Aggregate\obj\Debug\Aggregate.exe
 E:\MyProject\CSharpBasisPractice\Aggregate\obj\Debug\Aggregate.pdb
