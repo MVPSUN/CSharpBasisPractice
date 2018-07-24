@@ -9,9 +9,12 @@ using System.Web;
 
 namespace ASync.AttendanceTask
 {
+    /// <summary>
+    /// Task类库
+    /// </summary>
     public class AttendanceTask
     {
-        private const int ConcurrencyLevel = 5;
+        private const int ConcurrencyLevel = 5;//最多开启线程数
         private static readonly TaskFactory factory;
         //   private static readonly Logging.LogWrapper logger = new LogWrapper();
         static AttendanceTask()
