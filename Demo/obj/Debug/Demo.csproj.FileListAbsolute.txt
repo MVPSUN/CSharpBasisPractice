@@ -1,6 +1,0 @@
-E:\MyProject\CSharpBasisPractice\Demo\bin\Debug\Demo.exe.config
-E:\MyProject\CSharpBasisPractice\Demo\bin\Debug\Demo.exe
-E:\MyProject\CSharpBasisPractice\Demo\bin\Debug\Demo.pdb
-E:\MyProject\CSharpBasisPractice\Demo\obj\Debug\Demo.exe
-E:\MyProject\CSharpBasisPractice\Demo\obj\Debug\Demo.pdb
-E:\MyProject\CSharpBasisPractice\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache

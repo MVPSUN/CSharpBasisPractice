@@ -1,8 +1,0 @@
-E:\MyProject\CSharpBasisPractice\Inherit\bin\Debug\Inherit.exe.config
-E:\MyProject\CSharpBasisPractice\Inherit\bin\Debug\Inherit.exe
-E:\MyProject\CSharpBasisPractice\Inherit\bin\Debug\Inherit.pdb
-E:\MyProject\CSharpBasisPractice\Inherit\obj\Debug\Inherit.exe
-E:\MyProject\CSharpBasisPractice\Inherit\obj\Debug\Inherit.pdb
-E:\MyProject\CSharpBasisPractice\Inherit\obj\Debug\Inherit.csprojResolveAssemblyReference.cache
-E:\MyProject\CSharpBasisPractice\Inherit\bin\Debug\RestSharp.dll
-E:\MyProject\CSharpBasisPractice\Inherit\bin\Debug\RestSharp.xml
