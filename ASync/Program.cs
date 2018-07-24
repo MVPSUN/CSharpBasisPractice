@@ -40,9 +40,20 @@ namespace ASync
                 })(e);//第二个括号里面是参数
             }
             #endregion
-            Thread.Sleep(3000);
+
+            #region Task Class
+            AwaitTask();
+            #endregion
+
             Console.WriteLine("Paint End");
+            Thread.Sleep(3000);
             Console.WriteLine("PagePaint：" + Thread.CurrentThread.ManagedThreadId.ToString());
+        }
+        public async static void AwaitTask()
+        {
+            Console.WriteLine("T Start!");
+            await AttendanceTask.AttendanceTask.AddAsyncTask(() => { Console.WriteLine("Action逻辑!"); }, () => { Console.WriteLine("Success Action!"); }, (ex) => { Console.WriteLine("Faild Action!"); });//后面代码会被阻塞
+            Console.WriteLine("T Completed!");
         }
 
 

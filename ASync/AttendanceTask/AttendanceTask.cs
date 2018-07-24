@@ -61,6 +61,26 @@ namespace ASync.AttendanceTask
 
             }, CancellationToken.None, TaskCreationOptions.None, TaskScheduler.FromCurrentSynchronizationContext());
         }
+
+        public static Task AddAsyncTask(Action action, Action success, Action<Exception> failed)
+        {
+            SynchronizationContext.SetSynchronizationContext(new SynchronizationContext());
+            var result = factory.StartNew(() =>
+             {
+                 try
+                 {
+                     GetTaskAction(action)();
+                     GetTaskAction(success)();
+                 }
+                 catch (Exception e)
+                 {
+                     GetTaskAction(failed)(e);
+                 }
+
+             }, CancellationToken.None, TaskCreationOptions.None, TaskScheduler.FromCurrentSynchronizationContext());
+            return Task.FromResult(result).Unwrap();
+
+        }
         #endregion
 
         #region   Execute  Action
