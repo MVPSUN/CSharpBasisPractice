@@ -51,8 +51,9 @@
     <Compile Include="ActionMethod.cs" />
     <Compile Include="AsyncDome.cs" />
     <Compile Include="AsyncHttp.cs" />
-    <Compile Include="AttendanceTask\AttendanceTask.cs" />
-    <Compile Include="AttendanceTask\LimitedConcurrencyLevelTaskScheduler.cs" />
+    <Compile Include="ParallelLinq.cs" />
+    <Compile Include="UserDefinedTask\UserDefinedTask.cs" />
+    <Compile Include="UserDefinedTask\LimitedConcurrencyLevelTaskScheduler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

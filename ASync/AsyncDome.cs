@@ -9,7 +9,7 @@ namespace ASync
 {
     public class AsyncDome
     {
-        public async static Task PaintAds()
+        public async static Task<string> PaintAds()
         {
             //开启线程异步执行，下面代码不会执行
             string result = await Task.Run(() =>
@@ -19,6 +19,7 @@ namespace ASync
                 return "666";
             });
             Console.WriteLine("PaintAds After：" + Thread.CurrentThread.ManagedThreadId.ToString());
+            return result;
         }
         public static Task<string> PaintAdsFirst()
         {
