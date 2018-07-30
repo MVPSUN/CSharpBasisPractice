@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="ActionMethod.cs" />
     <Compile Include="AsyncDome.cs" />
+    <Compile Include="AsyncFileStream.cs" />
     <Compile Include="AsyncHttp.cs" />
     <Compile Include="ParallelLinq.cs" />
     <Compile Include="UserDefinedTask\UserDefinedTask.cs" />
