@@ -11,8 +11,6 @@ namespace Regex_
     {
         static void Main(string[] args)
         {
-            var dd = Program.CreateTimeStamp();
-
             VerifyEmail("wenbin.wuwb@wz-inc.com");
             VerifyEmail("wenbin.wuwb@wz@-inc.com");
             //VerifyEmail("wen.bin.wuwb@wz-inc.com");
@@ -56,10 +54,6 @@ namespace Regex_
                 string name = "Error";
             }
 
-        }
-        private static string CreateTimeStamp()
-        {
-            return ((DateTime.Now.ToUniversalTime().Ticks - 621355968000000000) / 10000000).ToString();
         }
     }
 }

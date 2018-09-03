@@ -24,6 +24,7 @@ namespace ASync
             ParallelLinq.ParallelA();
              ParallelLinq.ParallelB();
             #endregion
+
             #region  使用Await和不适用Await的区别
             //使用Await和不适用Await的区别
             var result = AsyncDome.PaintAds();
